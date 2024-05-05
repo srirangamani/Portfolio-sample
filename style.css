@@ -1,0 +1,164 @@
+*{
+    padding: 0%;
+    margin: 0*;
+}
+body{
+    line-clamp: (min 200px,50%,600px);
+    background:linear-gradient(orange,white,green);
+    background-repeat:repeat-x;
+}
+.header{
+    height: 100vh;
+
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+}
+a{
+    color: antiquewhite;
+    text-decoration: none;
+    border: 2px black transparent;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 20px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px 20px;
+    background-color: rgb(210, 179, 121);
+    font-size: 15px;
+    border-radius: 12px;
+    transition: 200ms;
+}
+a:hover{
+    box-shadow: 0px 0px 2px 2px green;
+    background-color: blue;
+}
+header h1{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.container{
+    padding: 30px;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style:double;
+    border-radius: 20px;
+}
+.container-aboutme{
+    padding: 40px;
+    height: 60%;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:rgb(250, 128, 114,0.3);
+    border-radius: 100px 20px 100px 20px;
+    overflow:hidden;
+    border:2px solid salmon;
+    box-shadow: 0px 0px 40px black;
+}
+#img1{
+    padding: 30px;
+    margin-left: 30px;
+    border: 2px solid black;
+    height: 400px;
+    width:300px;
+    object-fit: cover;
+    border-radius:200px 20px  20px 200px;
+    box-shadow: 20px 20px 22px brown , -10px -10px 30px green;
+}
+.container-aboutme__para{
+    color: white;
+    text-align: left;
+    line-height: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+#img1:hover{
+     box-shadow: 20px 20px 33px green, -20px -20px 30px brown;
+}
+.container h4{
+    display: flex;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px 300px 50px 300px;
+    box-shadow: 20px 20px 20px black,-20px -20px 30px white;
+    padding: 20px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+}
+.container-aboutme__para h3{
+    color: black;
+    font-weight:1000;
+    text-decoration:wavy;
+    text-shadow: 10px 10px 10px white;
+}
+
+/*  i was more trouble to find this flex-flow column it was such use full to make conents display in rows/columns */
+.container{
+    flex-flow: column;
+}
+/* the header and the about me sections or over */
+#Qualification{
+    margin-top: 80px;
+    background-color: teal;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-flow: column;
+    border: 2px solid rgb(51, 209, 209);
+    border-radius: 30px;
+    padding: 20px;
+}
+.Qualification-content{
+    display: grid;
+    grid-row:1;
+    grid-auto-flow: column;
+    border: 2px solid greenyellow;
+}
+#Qualification h2{
+    margin-bottom: 40px;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 20px;
+    background-color: aliceblue;
+    box-shadow:12px 12px 20px wheat;
+}
+#Trainings{
+    background-color: silver;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 15px;
+    margin-top: 20px;
+
+}
+#Trainings h3{
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: bolder;
+}
+footer{
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    align-items: center;
+
+}
+footer h2[
+    
+]
